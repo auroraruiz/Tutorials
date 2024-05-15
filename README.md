@@ -1,2 +1,2 @@
 # Tutorials
-A collections of tutorials about different programming tools.
+A collection of tutorials about different programming tools.
