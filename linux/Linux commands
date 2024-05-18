@@ -1,0 +1,108 @@
+Linux tutorials
+https://www.youtube.com/playlist?list=PL-osiE80TeTvGhHkpvfmKWOiIPF8UVy6c
+
+1. Navigating your file system
+
+Three commands: pwd, ls, and cd
+We need to understand relative paths
+
+pwd stands for "print working directory"
+ls stands for list and is used to view the files inside a directory
+cd stands for change directory
+
+to see the hidden files use:
+ls -a
+
+to see more information about our files:
+ls -l
+which displays:
+the permissions
+the user and group owners of the files and folders
+sizes
+dates
+
+"""
+The command "ls -l" in the Linux terminal provides a long listing of files and directories in the current directory. It displays detailed information about each file and directory, including permissions, number of links, owner, group, size, last modified date, and the name of the file or directory. This command gives a more comprehensive view of the directory contents compared to the basic "ls" command.
+"""
+
+to do the long form of the hidden files use:
+ls -la
+
+to see information about a folder inside of our current directory use:
+ls <FolderName/>
+
+Relative paths are file or directory paths that are specified relative to the current working directory. To understand relative paths we need to know what . and .. are.
+. is our current directory
+.. is our parent directory
+
+To navigate to our parent directory use:
+cd ..
+
+To navigate to our "grandparent" directory use:
+cd ../..
+
+To navigate to your home directory use:
+cd
+
+or 
+
+cd ~
+
+To navigate from the home directory to <path> use:
+cd ~/path
+
+2. Create, copy, rename and delete files and directories
+
+Now we're going to alter the file system.
+
+To create a new directory use:
+mkdir <nameofdirectory>
+
+To create a  text(?) file use:
+touch <file>
+
+To open file use:
+open <file>
+
+To make a copy of a file use:
+cp <filetocopy> <nameofnewcopy>
+
+Moving a file and renaming a file is actually the same process
+
+To rename a file/folder use:
+mv <file> <newname>
+
+To move a file/folder to another directory:
+mv <file> <dir path>
+
+To move and rename a file/folder at the same time:
+mv <file> <dir path>/<newname>
+Ex: mv original_file.txt ../test_file.txt
+
+To remove a file:
+rm <file>
+
+Be careful when removing files: you won't be asked if you're sure and they don't go to the trashcan for easy recovery.
+
+To see information about a command:
+man <command>
+
+To copy directory 1 into directory 2:
+cp -r Directory1/ Directory2/
+
+To copy contents of directory 1 into directory 2:
+cp -r Directory1/* Directory2/
+
+To remove a directory:
+rm -r <dir>
+
+To forcefully remove a directory:
+rm -rf <dir>
+
+
+
+
+
+
+
+
