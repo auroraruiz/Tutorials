@@ -162,4 +162,6 @@ cython_debug/
 # My additions
 *.xlsx
 */data
-01_pandas_tfm.ipynb
+
+# Ignore all files starting with "00"
+00*
