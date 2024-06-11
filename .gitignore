@@ -163,7 +163,7 @@ cython_debug/
 *.xlsx
 */data
 /tutorials_venv
+requirements_venv.txt
 
 # Ignore all files starting with "00"
 00*
-requirements_venv.txt
