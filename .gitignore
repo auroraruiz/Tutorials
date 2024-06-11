@@ -162,6 +162,8 @@ cython_debug/
 # My additions
 *.xlsx
 */data
+/tutorials_venv
 
 # Ignore all files starting with "00"
 00*
+requirements_venv.txt
